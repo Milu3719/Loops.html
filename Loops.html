@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>JS</title>
+
+</head>
+
+<body>
+
+    <script>
+
+var str="VictoR GYOkErEs";
+document.write(str.toLowerCase());
+document.write("<br>");
+    document.write(str.toUpperCase());
+    document.write("<br>");
+    document.write(str.startsWith('V'));
+
+    for ( var i=10;i<=50;i++)
+    {
+        document.write(i);
+    }
+    //to print odd number from given range//
+for( let i=5;i<=75;i++)
+{
+    if (i%2 !==0)
+{
+    document.write(i);
+}
+}
+document.write("<br>");
+
+//Another way//
+
+for ( let i=20;i<=80;i=i+2)
+{
+    document.write(i);
+
+}
+//decreasing value//
+document.write("<br>");
+for ( let i=50;i>=5;i--)
+{
+     document.write(i);
+}
+
+var managers = ["Hansi Flick","Pep Guardiola","Ten Hag","Mike Arteta","Alex Ferguson"];
+var text="";
+var i;
+for (i = 0; i < managers.length; i++ )
+{
+
+    text= text+managers[i];
+    document.write("<br>")
+}
+document.write(text);
+
+let day=new Date().getDate();
+switch(day)
+{
+
+case 0:
+    document.write("Today is Sunday"); 
+    break;
+    
+    case 1:
+        document.write("Today is Monday");
+        break;
+
+        case 2:
+        document.write("Today is Tuesday");
+        break;
+
+        case 3:
+        document.write("Today is Wednesday");
+        break;
+
+        case 4:
+        document.write("Today is Thusday ");
+        break;
+
+        case 5:
+        document.write("Today is Friday");
+        break;
+
+        case 6:
+        document.write("Today is Saturday");
+        break;
+
+        default :
+        document.write("Invalid Date");
+        
+
+}
+
+    </script>
+
+</body>
+
+
+</html
